@@ -1,20 +1,20 @@
-/* CSS Reset */
+
 body {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
 }
 
-/* Hero Section */
+
 .hero-section {
-    background: linear-gradient(to bottom right, #ffffff, #7cade5); /* Gradient colors */
+    background: linear-gradient(to bottom right, #ffffff, #7cade5); 
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: #000000; /* Text color */
+    color: #000000; 
     font-size: 48px;
     font-weight: bold;
 }

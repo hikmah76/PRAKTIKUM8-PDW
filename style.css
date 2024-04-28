@@ -1,0 +1,31 @@
+/* CSS Reset */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+/* Hero Section */
+.hero-section {
+    background: linear-gradient(to bottom right, #ffffff, #7cade5); /* Gradient colors */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #000000; /* Text color */
+    font-size: 48px;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .img-small {
+        max-width: 10% !important;
+    }
+}
+
+.hero-section img {
+    margin: 0 auto;
+    max-width: 100%;
+}
